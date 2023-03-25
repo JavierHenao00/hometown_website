@@ -1,0 +1,168 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    
+    
+    
+}
+
+#hero{
+    background-image: url(http://turismovalledelcauca.com/wp-content/uploads/2020/01/foto-jamundi-municipio-turismo-valle-del-cauca-colombia-6.jpg);
+    height: 250px;
+    background-size:  cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30em
+ 
+  
+    
+    
+    
+    
+}
+
+#rectangule{
+    width: 620px;
+    height: 150px;
+    background: rgba(10, 8, 31, 0.75);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 245, 0, 1);
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;   
+}
+
+
+
+
+
+#activities{
+    
+     background: rgba(10, 8, 31);
+     color: white;
+     display: flex;
+    flex-direction: column; 
+    height: 420px; 
+    
+   
+    }
+    #content{
+        padding-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+       
+        
+    }
+    
+    .activity{
+     margin-left: 50px;
+     margin-right: 50px;
+     width: 800px;
+    
+   
+     }
+     
+    
+    #title{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-style:oblique;
+        padding-top: 20px;
+    }
+    
+    img{
+         border-radius: 50%;
+        width: 200px;
+        
+    }
+    
+    img:hover{
+        width: 200px;
+    }
+    h4{
+        color: yellow;
+        font-style: normal
+    }
+       
+img {
+    width: 100px;
+}
+
+#guide{
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    background-image: url(https://rentadoradinamica.com/wp-content/uploads/2021/06/alquila-carrro-jamundi.jpg);
+    background-size:cover;
+}
+
+#rectangule2{
+    background: rgba(255, 230, 0, 0.6);
+    width: 500px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left:20px;   
+    
+}
+
+#rectangule2:hover{
+    width: 700px;
+    
+}
+
+#text_guide{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: large
+}
+#name{
+    color: black
+}
+#content_image{
+   
+
+   display: flex;
+   justify-content: flex-start;
+   align-self: flex-end;
+  
+   
+   
+}
+
+#image_guide{
+    width: 230px;
+    border-radius: 0px;
+    
+    
+    
+   
+    
+    
+    
+}
